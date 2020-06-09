@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/font-awesome.min.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/owl.theme.default.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/animate.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/aos.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidateRegistrationApp/css/style.css' %}">
+    <script src="{% static 'candidateRegistrationApp/js/jquery-3.2.1.js' %}"></script>
+    
+    <title>Registration</title>
+</head>
+
+<body>
+   
+    <section class="get-in-touch" id="contactus">
+        <div class="container">
+            <h1>Registration</h1>
+            <p></p>
+        </div>
+    </section>
+    <section class="contact-form-new">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                   
+                </div>
+                <div class="col-lg-7">
+                    <form  action="/" method="post" enctype="multipart/form-data"  onsubmit="return validateForm()">
+                        {% csrf_token %}
+                        {{ form }}
+                        <div class="inquiry-form-1">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-user" aria-hidden="true"></i>
+                                        <input type="text" id="fname" name="fname" placeholder="Name*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <input type="email" id= "mail" name="mail" placeholder="Email Address*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-key" aria-hidden="true"></i>
+                                        <input type="password" id="password" name="password" placeholder="Password*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-key" aria-hidden="true"></i>
+                                        <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <input type="text" id="phone" name="phone" placeholder="Phone Number*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <input placeholder="Birthdate" class="textbox-n" type="text" onfocus="(this.type='date')" id="bdate" name="bdate" required>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group"> <i class="fa fa-home" aria-hidden="true"></i>
+                                        <input type="text" id="city" name="city" placeholder="City*" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    
+
+                                     <div class="inquiry-form-1-group"> <i class="fa fa-th" aria-hidden="true"></i>
+                                        <select id="sel1" name="sellist_tech" required>
+                                            <option value="">Interested In*</option>
+                                            <option value="Mobile Apps">Mobile Apps</option>
+                                            <option value="Web Development">Web Development</option>
+                                            <option value="E-commerce">E-commerce</option>
+                                            <option value="UI /UX">UI /UX</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Testing &amp; Quality assurance">Testing &amp; Quality assurance</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inquiry-form-1-group">
+                                        <label><i class="fa fa-picture-o" aria-hidden="true"> Upload your pic</i>
+                                        </label>
+                                        <input class="file-upload" type="file" accept="image/*" id="user_pic" name="user_pic" required/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="inquiry-form-1-group">
+                                        <label><i class="fa fa-file-pdf-o" aria-hidden="true"> Upload your resume</i>
+                                        </label>
+                                        <input class="file-upload" type="file" name="user_resume" id="user_resume" placeholder="Resume file" accept=".pdf" required>
+                                    </div>
+                                </div>
+                               
+
+                                 <div class="col-lg-6">
+                                    
+
+                                     <div class="inquiry-form-1-group"> <i class="fa fa-th" aria-hidden="true"></i>
+                                        <select id="sel1" name="sellist_exper" required>
+                                            <option value="">Work Experience*</option>
+                                            <option value="Fresher">Fresher</option>
+                                            <option value="Experienced">Experienced</option>
+                                           
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-check-label" for="check1">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="registerNDA" value="True" checked required>Yes, Send Me A Mutual NDA (Non-Disclosure Agreement)</label>
+                                </div>
+                                <div class="col-lg-6"> 
+
+                                    <input type="submit" class="effect-1-btn effect-2-btn" name="Send Inquiry" value="Send Inquiry" />
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="{% static 'candidateRegistrationApp/js/popper.min.js' %}"></script>
+    <script src="{% static 'candidateRegistrationApp/js/bootstrap.js' %}"></script>
+  
+
+<script type="text/javascript">
+    function validateForm() {
+
+        alert("pwdValidation");
+        var result = "";    
+    
+        result += pwdValidation();  
+
+        result += phoneValisation()
+        
+        result += checkDOB();
+        
+        result += validateFileIMGType();
+
+        result += validateFilePDFType();
+
+               
+        if (result == "" ) return true;
+        
+        alert(result);
+        
+        return false;   
+    }
+
+    function pwdValidation()
+    {
+        var password = document.getElementById("password").value;
+        var cpassword = document.getElementById("cpassword").value;
+        
+        if (password.length < 6) 
+            return "Password should be at least 6 characters.\n";
+        
+        if (password != cpassword) 
+            return "Passwords do not match.\n"; 
+    }
+  
+    function phoneValisation()
+    {
+         if( document.getElementById("phone").value == "" || isNaN( document.getElementById("phone").value ) || getElementById("phone").value.length == 10 ) {
+      
+                  return "Please provide valid phone number.\n"; 
+  
+                }
+    }
+
+
+    function checkDOB() {
+        var dateString = document.getElementById('bdate').value;
+        var myDate = new Date(dateString);
+        var today = new Date();
+        if ( myDate > today ) { 
+            return "You cannot enter a date in the future!.\n"
+        }
+        
+    }
+
+    function validateFileIMGType(){
+        var fileName = document.getElementById("user_pic").value;
+        var idxDot = fileName.lastIndexOf(".") + 1;
+        var extFile = fileName.substr(idxDot, fileName.length).toLowerCase();
+        if (extFile =="jpg" || extFile=="jpeg" || extFile=="png"){
+            return ""
+        }else{
+            return "Only jpg/jpeg and png files are allowed!\n" ;
+        }   
+    }
+
+    function validateFilePDFType(){
+        var fileName = document.getElementById("user_resume").value;
+        var idxDot = fileName.lastIndexOf(".") + 1;
+        var extFile = fileName.substr(idxDot, fileName.length).toLowerCase();
+        if (extFile=="pdf" ){
+            return ""
+        }else{
+            return "Only pdf and png files are allowed!\n" ;
+        }   
+    }
+    
+</script>
+</body>
+
+</html>

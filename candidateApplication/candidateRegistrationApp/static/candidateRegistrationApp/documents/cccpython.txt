@@ -1,0 +1,49 @@
+Python 
+
+1) Frameworks :  1) Django 
+	         2) Pyramid
+		 3) TurboGears 
+
+2) Microframeworks : 1) Flask 
+		     2) Bottle
+		     3) CherryPy
+
+3) Database : 1) SQLite
+	      2) MySQL
+	      3) PostgreSQL
+	      4) MongoDB
+	      5) Oracle
+
+4) AI libs & frameworks : 1) Tensorflow
+			  2) RASA
+			  3) spacy
+			  4) nltk
+			  5) Scikit-learn
+			  6) Matplotlib
+			  7) Keras
+			  8) Theano
+			  9) Duckling
+
+5) other libs  : 1) Pandas
+		 2) NumPy
+
+6) Front-end Technologies  : Django templating (like Jinja)
+			     HTML, CSS and JavaScript
+			     Django + react 
+
+Now a day pyhotn use for 
+	1) Data Science 
+	2) Machine learning
+	3) Artificial intelligence
+
+Field :
+-------
+
+1) Smart governance
+2) Banking 
+3) Business intelligence
+4) Health care 
+5) marketing
+6) Agriculture
+7) Education
+8) Retail & ECommerce

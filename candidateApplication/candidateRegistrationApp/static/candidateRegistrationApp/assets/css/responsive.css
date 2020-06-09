@@ -1,0 +1,2072 @@
+@media (min-width: 1500px) {
+    .main-banner {
+        height: 550px;
+    }
+    .food-banner.deli {
+        height: 530px;
+    }
+    .food-banner.psycle {
+        height: 530px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .ambassadors-info.article .sweat-img {
+        max-width: 100%;
+    }
+}
+@media(min-width: 1350px)
+{
+    
+}
+@media (max-width: 1280px) {
+    .main-header {
+        padding: 10px 10px;
+    }
+    header .header-info .sec .dropdown {
+        width: 120px;
+    }
+    header .header-info .first .dropdown {
+        width: 150px;
+    }
+    header .header-info .search-input input {
+        width: 175px;
+    }
+    .sweat-img .share-post1 {
+        margin-right: 1px;
+    }
+    .amb-photos {
+        margin-right: 34px;
+    }
+    .ambs-img img {
+        width: 100%;
+    }
+    .table-responsive{overflow-x: auto;}
+    .admin-dashboard .view-site span{max-width: 72%;}
+
+}
+@media (max-width: 1199px) {
+.block-user-account {margin-left: 0;margin-top: 20px;}
+.survey-quetions-box .col-lg-3 {
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+}
+
+@media (max-width: 1024px) {
+    .filter-search input{width: 255px;}
+    .main-banner {
+        height: 485px;
+    }
+    header .more-info {
+        margin-top: 10px;
+    }
+    .send-btn {
+        text-align: center !important;
+        margin-top: 35px;
+    }
+    .featured-place .food-info h5 {
+        font-size: 15px;
+    }
+    .featured-place .places-food .share-post {
+        margin-top: 12px;
+    }
+    .main-footer .footer-media h4 {
+        font-size: 20px;
+    }
+    .main-header.nama .navbar {
+        display: block !important;
+    }
+    .main-header .navbar .d-flex {
+        justify-content: center;
+    }
+    header .header-info .third .dropdown {
+        width: 160px;
+    }
+    header .login-info .dropdown .dropdown-menu {
+        left: -13px;
+    }
+    .food-banner .food-text {
+        left: 0;
+        padding: 30px 55px;    
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 235px;
+    }
+    .sweat-banner {
+        margin-top: -7rem;
+    }
+    .main-header.sweat .header-info {
+        padding: 0 90px;
+    }
+    .main-header.sweat .navbar {
+        display: block;
+    }
+    .sweat-img .places-food {
+        display: block !important;
+        height: 405px;
+    }
+    .sweat-img .place-img img {
+        width: 100%;
+        transition: 0.3s;
+        height: 100%;
+        object-fit: cover;
+    }
+    .sweat-img .place-img {
+        height: 230px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .sweat-img .share-post1 {
+        margin-right: 12px;
+    }
+    .amb-info .img-name p {
+        font-size: 12px;
+    }
+    .partner-details {
+        display: block !important;
+        justify-content: center;
+    }
+    .partner-details .d-flex {
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    .partner-info .overview {
+        margin-right: 92px;
+    }
+    .partner-info {
+        padding-bottom: 30px;
+    }
+    footer .copyright-sec p {
+        width: 65%;
+    }
+    .amb-photos {
+        margin-right: 5px;
+        height: 181px;
+    }
+    .add-profile {
+        left: -39px;
+        top: 20px;
+    }
+    .ambassadors-profile {
+        padding-left: 13px;
+    }
+    .ambassadors-info.article .container-fluid {
+        padding-right: 15px !important;
+    }
+    .ambassadors-info.article .amb1 {
+        padding-right: 0;
+    }
+    .profile-info {
+        max-width: 90%;
+    }
+    .ambs-info {
+        padding: 80px 60px;
+    }
+    .ambs-text {
+        max-width: 95%;
+    }
+    .amb-profile h3 {
+        max-width: 100%;
+        font-size: 22px;
+    }
+    .amb-profile {
+        padding: 22px 15px;
+    }
+    .edit-info a {
+        max-width: 182px;
+        padding: 10px 22px;
+    }
+    .amb-gen {
+        display: block !important;
+        text-align: center;
+    }
+    .amb-gen p {
+        text-align: center;
+    }
+    .ambassador-profile .gen-info {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .ambassador-profile .filter-cat .form-control .styledSelect {
+        width: 160px;
+    }
+    .featured-place .food-info p {
+        font-size: 14px;
+    }
+    .featured-place .places-food .place-img {
+        width: 440px;
+    }
+    .featured-place .places-food .share-post {
+        margin-top: 3px;
+    }
+    .featured-place .see-more a {
+        font-size: 16px;
+    }
+    .featured-place .places-food .share-post i {
+        font-size: 17px;
+    }
+    .featured-place .food-info p {
+        margin-top: 3px;
+    }
+    .featured-place .food-info {
+        padding-top: 12px;
+    }
+    .coming-soon .web-text h5 {
+        font-size: 20px;
+    }
+    .featured-city,
+    .featured-place {
+        padding: 40px 100px;
+    }
+    .featured-place .places-food {
+        height: 200px;
+    }
+    .ambassadors {
+        padding: 50px 100px;
+    }
+    .admin-page .sidenav {
+        padding: 12px;
+    }
+    .sidebar-wrapper .sidebar-menu ul li a i {
+        width: 17px;
+        height: 26px;
+    }
+    .amenities-admin .amen {
+        display: block !important;
+    }
+    .amenties1 {
+        margin-bottom: 30px;
+    }
+    .admin-page .filter-cat {
+        margin-right: 0;
+    }
+    .admin-pages.select-places .place-reviews{padding-right: 0;}
+    .amb-gen2 .amb-pics {padding-right: 0;padding-bottom: 10px;}
+    .sug-plc2-title .psycle-desc .col-lg-3{flex: 0 0 33.333%;    max-width: 33.333%;}
+    .survey-quetions.more-survey .progress-img img{width: 100%;}
+    .admin-dashboard .site-img img {
+    width: 45px;
+}
+.admin-dashboard .view-site span{max-width: 100%;}
+}
+@media (max-width: 991px) {
+    .main-banner #search_location {
+        width: 265px;
+    }
+    .main-banner .dropdown {
+        width: 220px;
+    }
+    .city-title {
+        text-align: center;
+    }
+    .city-img {
+        margin-bottom: 40px;
+    }
+    .featured-place .places-food img {
+        width: 465px;
+    }
+    .featured-place .places-food .place-img {
+        width: auto;
+    }
+    .featured-place .places-food .share-post {
+        margin-top: 45px;
+    }
+    .featured-place .food-info h5 {
+        font-size: 23px;
+    }
+    .featured-place .places-food {
+        margin-bottom: 40px;
+    }
+    .featured-place .see-more {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .featured-place,
+    .featured-city,
+    .ambassadors {
+        padding: 50px 40px;
+    }
+    .web-main {
+        margin-top: 20px;
+    }
+    .main-footer .col-md-6 {
+        max-width: 50% !important;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .main-footer .footer-link {
+        border-left: 0;
+        padding-left: 0;
+    }
+    .main-footer .col-md-12 {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .main-footer .footer-link.sec {
+        border-left: 1px solid #747474;
+        border-right: 0;
+    }
+    .main-footer .footer-link ul {
+        text-align: center;
+    }
+    .main-footer .footer-media {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .main-footer .footer-media p {
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer-social ul {
+        justify-content: center;
+    }
+    .main-footer .footer-media .footer-social {
+        margin-top: 42px;
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 175px;
+    }
+    header .header-info .dropdown,
+    header .header-info input {
+        margin-right: 12px;
+    }
+    header .header-info .first .dropdown {
+        width: 125px;
+    }
+    header .header-info .sec .dropdown {
+        width: 100px;
+    }
+    header .header-info .third .dropdown {
+        width: 100px;
+    }
+    header .header-info {
+        margin-left: 0;
+    }
+    header .login-info {
+        margin-left: 12px;
+    }
+    header .more-info {
+        display: block;
+        margin-top: 15px;
+    }
+    header .login-info {
+        margin: 17px 58px 2px 0;
+    }
+    .login-info {
+        float: right;
+    }
+    .restaurent-info .place-reviews .user-reviews {
+        max-width: 100%;
+    }
+    .review-btn {
+        margin: 0 auto;
+    }
+    .banner-overlay {
+        display: block;
+    }
+    #myNavbar .header-info {
+        padding: 0 10px;
+    }
+    .sweat-img .place-img {
+        width: 137px;
+        overflow: hidden;
+    }
+    .sweat-img .food-info {
+        width: 100%;
+    }
+    .sweat-img .places-food {
+        display: flex !important;
+        height: 183px;
+        margin-bottom: 30px;
+    }
+    .sweat-img .place-img img {
+        width: 100%;
+        transition: 0.3s;
+        height: 100%;
+    }
+    .sweat-img .place-img {
+        height: auto;
+        width: 330px;
+    }
+    .sweat-img .food-info h6 {
+        font-size: 16px;
+    }
+    .sweat-img .d-flex p {
+        font-size: 13px;
+    }
+    .sweat-img .timing p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main-header.sweat .header-info {
+        padding: 0 30px;
+    }
+    .sweat-img .share-post1 a {
+        font-size: 14px;
+    }
+    .toggle-sec .sweat-list {
+        margin-top: 55px;
+    }
+    .restaurent-info.psycle .restaurant-imgs {
+        padding-left: 45px;
+    }
+    .ambassadors-list {
+        margin-bottom: 80px;
+    }
+    .amb-info .img-name p {
+        font-size: 13px;
+    }
+    .ambassadors-desc {
+        margin-bottom: 25px;
+    }
+    .partner-info .overview {
+        margin-right: 20px;
+    }
+    .partner-info {
+        padding: 80px 38px;
+        padding-bottom: 0;
+    }
+    .give-data .join-us1 {
+        padding-top: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .copyright-sec p {
+        width: 88%;
+    }
+    .find-place .loc-map {
+        height: 400px;
+    }
+    .find-place .map {
+        padding-right: 15px;
+    }
+    .find-place {
+        padding-right: 20px;
+    }
+    .amb-photos {
+        margin-right: 0;
+    }
+    .amb-images {
+        padding: 50px 0 0 20px;
+    }
+    .ambassadors-info .amb-desc h4 {
+        font-size: 23px;
+    }
+    .amb-photos {
+        margin-right: 0;
+        height: 100%;
+    }
+    .add-profile {
+        left: -30px;
+        top: 26px;
+    }
+    .amb-tag {
+        right: -28px;
+    }
+    .edit-info a {
+        padding: 10px 14px;
+    }
+    .note-editor.note-frame {
+        margin-bottom: 20px;
+    }
+    .profile-info {
+        max-width: 100%;
+    }
+    .about-info {
+        padding: 0 90px;
+    }
+    .edit-title {
+        padding: 10px 60px;
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+    .ambassadors-info.article .container-fluid {
+        padding-right: 15px !important;
+        padding-left: 15px;
+    }
+    .ambassadors-info.article .new-upload .old {
+        padding-left: 0;
+    }
+    .ambs-text {
+        max-width: 100%;
+    }
+    .ambs-desc .row {
+        align-items: center;
+    }
+    .amb-profile {
+        padding: 22px 30px;
+        margin-bottom: 30px;
+    }
+    .amb-profile h3 {
+        max-width: 68%;
+        font-size: 22px;
+    }
+    .ambassadors-info.profile .dropdown {
+        max-width: 30%;
+    }
+    .amb-img {
+        position: relative;
+        max-width: 110px;
+        margin: 0 auto;
+    }
+    .amb-img img {
+        width: 100%;
+    }
+    .amb-tag img {
+        width: 28px;
+    }
+    .ambassadors-profile {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .amb-tag {
+        position: absolute;
+        top: -6px;
+        background: #7ec2f1;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        line-height: 39px;
+        border-radius: 50%;
+        right: -19px;
+    }
+    .ambassadors-info .amb {
+        padding-left: 15px;
+    }
+    .edit-info a {
+        max-width: 125px;
+    }
+    .ambassador-profile .ambassadors-profile {
+        padding-left: 0;
+    }
+    .ambassador-profile .review-info .reviews {
+        margin-bottom: 15px;
+    }
+    .ambassador-profile .review-title {
+        display: block;
+    }
+    .ambassador-profile .localisation {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .ambassador-profile .localisation p {
+        text-align: center;
+    }
+    .social-media .d-flex {
+        justify-content: center;
+    }
+    .social-media .d-flex li:last-child a i {
+        margin-right: 0;
+    }
+    .ambassador-profile .social-media {
+        margin-top: 15px;
+    }
+    .ambassadors-info .amb-desc h4 {
+        font-size: 20px;
+    }
+    .edit-info h4,
+    .our-ambs h4 {
+        font-size: 17px;
+    }
+    .profile-list ul li a {
+        font-size: 15px;
+    }
+    .filter-cat {
+        display: block !important;
+        margin-top: 15px;
+    }
+    .ambassador-profile .filter-cat .form-group {
+        margin-right: 0;
+        margin-bottom: 13px;
+    }
+    .ambassador-profile .filter-cat .form-group.heart {
+        margin-right: 0;
+    }
+    .ambassador-profile .filter-cat p {
+        margin-bottom: 10px;
+    }
+    .ambassador-profile .rev {
+        padding-right: 15px;
+    }
+    .find-place .place-loc {
+        height: 400px;
+    }
+    .admin-page .admin-sidebar {
+        display: none;
+    }
+    .new-places .filter-cat {
+        display: flex !important;
+        margin-top: 0;
+    }
+    .new-places .filter-cat .form-group {
+        margin-right: 0;
+    }
+    .admin-site {
+        position: relative;
+    }
+    .toggle-wrap {
+        position: absolute;
+        top: 36px;
+        z-index: 999;
+    }
+    .admin-page .new-places h5 {
+        margin-left: 35px;
+    }
+    .toggle-btn i {
+        color: #7ec2f1;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .toggle-wrap {
+        display: block;
+    }
+    .sidebar-toggle .admin-sidebar {
+        display: block;
+    }
+    .admin-page .new-places {
+        padding: 30px 0px;
+    }
+    .add-new-pics-item {
+        width: 30%;
+    }
+    .amenties1 .d-block {
+        margin-right: 35px;
+        float: left;
+    }
+    /*.amenities-admin .d-flex{display: block !important;}*/
+    .amenities p {
+        text-align: center;
+    }
+    .admin-page .new-places {
+        display: block;
+    }
+    .new-places .filter-cat {
+        display: flex !important;
+        margin-top: 16px;
+        margin-left: 30px;
+    }
+    .toggle-wrap {
+        top: 32px;
+        left: 15px;
+    }
+    .survey-page {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .admin-page .main-page.user-insight .new-places h5 {
+        margin-left: 0
+    }
+    .add-new {
+        padding-left: 0px;
+    }
+    .edit-text h3 {
+        font-size: 25px;
+    }
+    .edit-text span {
+        font-size: 15px;
+    }
+    .edit-text p {
+        max-width: 100%;
+    }
+    .main-page.edit-place .amenities-admin {
+        padding: 20px 0;
+    }
+    .main-page.edit-place {
+        padding-bottom: 40px;
+    }
+    .rev-block {
+        margin-bottom: 20px;
+    }
+    .admin-site .main-page {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .admin-page .container-fluid {
+        padding-left: 15px;
+    }
+    .place-street{padding: 0 0;}
+    .admin-page .place-desc{padding: 0 0;}
+    .add-new-pics{padding: 35px 0;}
+    .amenities-admin{padding: 20px 0;}
+    .admin-site.table-place .main-page{padding: 0;}
+    .filter-search{padding-left: 40px;
+    display: flex;
+    align-items: center;}
+    .filter-search i{left: 54px;}
+    .mian-topbar-filter{
+            padding: 25px 12px;
+    }
+    .filter-icon a{display: flex;font-size: 15px;}
+     .filter-icon a img{width: 20px;margin-right: 10px;}
+     .table-places-action{
+            padding: 50px 15px 0px 15px;
+     }
+     .table-places-wrapper .table th, .table td{width: 155px;}
+      .localisation2 {width: 450px;margin-top: 20px;}
+     .social-media2 .d-flex {justify-content: flex-start;}
+     .review-title2 {display: block;}
+     .user_detail_general1 {padding: 40px 40px;}
+     .review-title2 .filter-cat .form-group{display: inline-block;}
+     .survey-page.settings .main-page.user-insight{padding: 0 0;}
+     .admin-site.table-place .main-page.user-insight form{padding: 10px 20px;}
+     .admin-pages.select-places .new-places h5 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.admin-pages.select-places .psycle-text {
+    margin-top: 8px;
+        margin-bottom: 30px;
+}
+.admin-pages.select-places .pro_slider.slick-initialized .slick-slide img {
+    display: block;
+    height: 100%;
+}
+.single-big-photo {
+    height: 535px;
+}
+.main-page.sug-plc2 .filter-with-search-wrapper{margin-top: 22px;}
+.main-page.sug-plc2 .new-places h5{margin-left: 0;    padding-right: 0;}
+.main-page.sug-plc2 .new-places .filter-cat{margin-top: 0;}
+.admin-page .sug-plc2 .dropdown{width: 152px;}
+.admin-page .sug-plc2 .form-group {
+    width: 120px;
+}
+.main-page.sug-plc2 .psycle-block{padding: 15px;}
+.sug-plc2-title .psycle-desc .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.survey-quetions.more-survey .amb-title {
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+.admin-pages.select-places .new-places .amenities h5, .admin-pages.select-places .new-places .place-reviews h5{margin-left: 0;}
+
+.admin-pages.select-places .new-places{padding: 15px;}
+.main-page.sel-pls{padding: 0;}
+.main-page.sel-pls .new-places h5{margin-left: 0;}
+
+}
+@media (max-width: 767px) {
+    .navbar {
+        display: block;
+    }
+    .navbar .d-flex {
+        justify-content: center;
+      /*  margin-bottom: 30px;*/
+    }
+    .main-header .navbar form {
+        justify-content: center;
+        margin-top: 18px;
+    }
+    .search-tab .d-flex {
+        display: block !important;
+    }
+    .main-banner #search_location {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .main-banner .dropdown {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .search-tab .row {
+        margin: 0;
+    }
+    .main-banner .search-input img,
+    .main-banner .form-group.sec img {
+        left: 15px;
+    }
+    .send-btn {
+        margin-top: 10px;
+        margin-bottom: 90px;
+    }
+    .coming-soon .web-text h5 {
+        font-size: 25px;
+        padding-left: 23px;
+    }
+    .featured-place .places-food {
+        display: block !important;
+        height: 450px;
+    }
+    .featured-place .places-food img {
+        width: 100%;
+    }
+    .featured-place .places-food .share-post {
+        margin-top: 10px;
+    }
+    .featured-place .places-food .place-img {
+        border-radius: 15px;
+    }
+    .featured-place .places-food {
+        border-radius: 15px;
+    }
+    .featured-place .places h4 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .header-info {
+        display: none !important;
+    }
+    .navbar-toggler-icon {
+        display: block;
+    }
+    .main-header .navbar {
+        display: flex !important;
+    }
+    .main-header.main .navbar {
+        display: block !important;
+        margin-bottom: 18px;
+    }
+    .main-header.nama .navbar {
+        display: flex !important;
+    }
+    .main-header .navbar-collapse .toggle-bar {
+        display: block;
+    }
+    .main-banner #search_location {
+        border-radius: 0;
+    }
+    .form-group.sec .dropdown {
+        border-radius: 0;
+    }
+    header .header-info .first .dropdown {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header .header-info .sec .dropdown {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header .header-info .third .dropdown {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header .header-info .search-input input {
+        width: 100%;
+        margin-right: 0;
+    }
+    header .header-info .search-input i {
+        right: 15px;
+    }
+    .main-btn {
+        text-align: center;
+    }
+    header .header-info .main-btn a {
+        padding: 4px 40px;
+    }
+    .main-header {
+        padding: 0 0;
+    }
+    header .login-info {
+        margin-left: 110px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    #myNavbar .header-info {
+        display: block !important;
+        padding: 15px 10px;
+    }
+    .restaurent-info {
+        padding: 50px 0;
+    }
+    .restaurant-imgs .main-img .zoom-img {
+        width: 100%;
+    }
+    .restaurant-imgs .main-img {
+        width: 100%;
+        float: left;
+    }
+    .food-banner .food-text {
+           padding: 20px 25px;
+    }
+    .restaurant-imgs .more-img {
+        justify-content: center;
+    }
+    .restaurant-imgs .more-img a {
+        width: 100%;
+        margin-right: 16px;
+    }
+    .restaurant-imgs .more-img .zoom-in {
+        width: 100%;
+    }
+    .share-btn {
+        width: 100%;
+    }
+    .restaurant-imgs {
+        margin-top: 50px;
+    }
+    .sweat-img .food-info h6 {
+        font-size: 16px;
+    }
+    .sweat-img .d-flex p {
+        font-size: 13px;
+    }
+    .sweat-img .timing p {
+        font-size: 15px;
+    }
+    .sweat-img .places-food {
+        height: 185px;
+    }
+    .main-header.sweat .header-info .toggle-bar {
+        display: none !important;
+    }
+    .main-header.sweat .header-info {
+        padding: 0 0px;
+    }
+    .main-header.sweat .login-info .dropdown .dropdown-menu {
+        left: -34px;
+    }
+    .main-header.sweat .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .main-header.sweat .navbar .d-flex {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .main-header.sweat #myNavbar .toggle-bar {
+        display: block !important;
+    }
+    .main-header.sweat #myNavbar {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        left: 0px;
+        max-width: 100%;
+        right: 0px;
+        border: 1px solid #7ec2f1;
+        box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+        -webkit-box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+    }
+    .main-header.sweat #myNavbar .dropdown,
+    .main-header.sweat #myNavbar #search_location {
+        box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+        -webkit-box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.08);
+    }
+    .near-sweat {
+        padding: 60px 40px;
+    }
+    .near-sweat .sweat-title h3 {
+        font-size: 19px;
+    }
+    .sweat-desc h4 {
+        font-size: 14px;
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 264px;
+    }
+    .restaurent-info.deli .restaurant-imgs {
+        margin-left: 0;
+    }
+    .restaurent-info.psycle .restaurant-imgs {
+        padding-left: 0;
+    }
+    .overview img {
+        width: 100%;
+    }
+    .partner-details .d-flex {
+        display: block !important;
+    }
+    .partner-info .overview {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .partner-info {
+        padding: 50px 38px;
+        padding-bottom: 0;
+    }
+    .partner-info .over-name {
+        text-align: center;
+    }
+    .partner-info .over-name p {
+        text-align: center;
+    }
+    .give-data {
+        padding: 0px 30px 40px 30px;
+    }
+    .give-data .form-group.sec .dropdown {
+        border-radius: 12px;
+    }
+    footer .copyright-sec p {
+        width: 100%;
+        text-align: center;
+    }
+    .find-place .indicator {
+        top: 40%;
+        left: 16%;
+    }
+    .find-place {
+        padding: 35px 10px;
+        padding-bottom: 0;
+    }
+    .amb-fav .d-flex {
+        text-align: center;
+        justify-content: center;
+    }
+    .amm {
+        margin-bottom: 35px;
+    }
+    .amb-photos.add-pic {
+        height: 320px;
+    }
+    .add-profile {
+        left: 10rem;
+        top: 5rem;
+    }
+    .ambassadors-info .amb {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .articles-info {
+        padding-right: 0;
+    }
+    .ambassadors-info.article .amb-images {
+        padding: 50px 10px 0 12px;
+    }
+    .ambassadors-info.article .amb1 {
+        padding-right: 15px;
+    }
+    .new-upload .new1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .flex-btn {
+        justify-content: center;
+    }
+    .save-article {
+        float: none;
+        padding-right: 0;
+    }
+    .new-upload .new1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .new-upload {
+        padding-left: 15px;
+    }
+    .profile-desc {
+        padding: 60px 0;
+    }
+    .edit-title {
+        padding: 10px 0px;
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+    .about-info {
+        padding: 0 30px;
+    }
+    .about-info .form-group.sec .dropdown {
+        border-radius: 12px;
+    }
+    .ambs-img {
+        margin-bottom: 25px;
+    }
+    .ambs-text {
+        margin-bottom: 25px;
+    }
+    .ambs-desc {
+        margin-bottom: 35px;
+    }
+    .ambs-btn a {
+        padding: 10px 104px;
+    }
+    .ambs-desc.last {
+        border: none;
+    }
+    .ambs-info p,
+    .ambs-info h6 {
+        text-align: center;
+    }
+    .ambs-info {
+        padding: 40px 10px;
+    }
+    #modalambForm .main-fields {
+        padding: 0 0px;
+    }
+    #modalambForm .modal-dialog {
+        max-width: 85%;
+    }
+    #modalambForm p {
+        max-width: 80%;
+    }
+    .ambassadors-info.profile .dropdown {
+        max-width: 100%;
+    }
+    .edit-info a {
+        max-width: 175px;
+    }
+    .ambassador-profile .filter-cat .form-control .styledSelect {
+        width: 100%;
+        text-align: left;
+    }
+    .ambassador-profile .amb-images {
+        padding: 50px 10px 0 25px;
+    }
+    .ambassador-profile .filter-cat .options li {
+        text-align: left;
+    }
+    .rev-title h6 {
+        text-align: center;
+    }
+    .pro-rating .d-flex {
+        justify-content: flex-start;
+    }
+    .ambassador-profile .amb-images {
+        padding: 50px 0px 0 15px;
+    }
+    #suggestionmodal .modal-dialog {
+        max-width: 85%;
+    }
+    .ambassador-profile .rev-title {
+        margin-top: 15px;
+    }
+    .amb-img {
+        max-width: 145px;
+    }
+    .featured-place .food-info h5 {
+        font-size: 19px;
+    }
+    .amenties1 .d-block {
+        margin-right: 12px;
+        float: left;
+    }
+    .new-places .filter-cat {
+        display: block !important;
+    }
+    .admin-page .dropdown {
+        margin-bottom: 10px;
+    }
+    .admin-page .main-page.user-insight .new-places h5 {
+        font-size: 18px;
+    }
+    .admin-page .main-page.user-insight .new-places input {
+        font-size: 15px;
+    }
+    .op-btn.reprove-btn a {
+        font-size: 11px;
+    }
+    header .more-info {
+        display: block;
+        margin-top: 2px;
+    }
+    .main-page.edit-place {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .new-pics {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .new-pics .main {
+        padding-left: 15px !important;
+    }
+    .single-img {
+        width: 465px;
+        padding-right: 0;
+    }
+    .add-img {
+        margin: 30px 0;
+    }
+    .new-pics .row .col-sm-6 {
+        padding-right: 15px !important;
+    }
+    .main-page.edit-place .new-places {
+        padding-left: 0;
+    }
+    .single-img {
+        width: 100%;
+    }
+    .two-images img.first {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .two-images img {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .main-page.edit-place .amenties1 .d-block {
+        margin-right: 20px;
+    }
+    .amb-banner {
+        height: 200px;
+    }
+    .ambassador-profile .ambassadors-profile {
+        padding-left: 13px;
+    }
+    .ambassadors-profile {
+        padding-left: 13px;
+        padding-right: 0;
+    }
+    .find-place .place-title h3 {
+        font-size: 20px;
+    }
+    .ambassadors-profile.view {
+        padding-left: 0;
+    }
+    .partner-slider .owl-nav i {
+        font-size: 40px;
+    }
+    .partner-slider .owl-nav .owl-prev i {
+        left: -25px;
+    }
+    .partner-slider .owl-nav .owl-next i {
+        right: -25px;
+    }
+    .main-banner.index .styledSelect {
+        padding-left: 45px;
+    }
+    .sweat-desc {
+        padding: 20px;
+    }
+    .admin-page .new-places {
+        padding-bottom: 10px;
+    }
+    /*.admin-site .main-page {
+        padding-right: 0;
+        padding-left: 0;
+    }*/
+    .reprove-btn {
+        text-align: center;
+    }
+    .reprove-btn .hvr-radial-out {
+        margin-left: 0;
+    }
+    .acc-pass input {
+        width: 258px !important;
+    }
+    .settings-btn {
+        text-align: center;
+    }
+   /* .toggle-wrap {
+    top: 32px;
+    left: 35px;
+}*/
+.filter-search input{    width: 240px;}
+.table-title h2 {
+    font-size: 22px;}
+/*.filter-search{display: block;}*/
+.mian-topbar-filter{display: block;}
+.link{padding-top: 18px;}
+.filter-search input {
+    width: 195px;
+}
+.table-title .add-new{float: left;}
+.paginations ul{justify-content: center;float: none;}
+.survey-page.insight-user{padding: 15px;}
+.op-btn.que-btn a {
+    padding: 8px 35px 8px 35px;
+}
+.user_detail_general1 {padding: 40px 15px;}   
+ .amb-gen2 .amb-pics {padding-top: 30px;}
+ .localisation2 {width: 100%;}
+ .social-media2 .d-flex {justify-content: flex-start;}
+ .review-title2 .filter-cat .form-group {display: block;}
+ .review-title2 .form-group, .review-title2 .dropdown{width: 100%;}
+ .review-title2 .filter-cat .form-control .styledSelect {width: 100%;text-align: left;}
+ .review-title2 .filter-cat .form-control .styledSelect:after {right: 12px;}
+ .review-title2 .filter-cat .options li {text-align: left;}
+ .review-title2 .filter-cat p{padding-bottom: 10px;}
+.reprove-btn.add-op{text-align: right;}
+.admin-pages.select-places .pro_thumb .slick-slide img{width: 110px;height: 100px !important;}
+
+.admin-pages.select-places .slick-vertical .slick-slide{width: 123px !important;}
+.admin-pages.select-places .pro_slider.slick-initialized .slick-slide img {
+    display: block;
+    height: 340px;
+    margin-bottom: 20px;
+}
+.admin-pages.select-places .single-big-photo {
+    height: 460px;
+}
+.admin-pages.select-places .slick-slider .slick-track{height: auto !important;}
+.admin-pages.select-places .place-reviews .user-reviews{margin-bottom: 20px;}
+.admin-pages.select-places .new-places h5 {
+    margin-left: 25px;
+}
+.survey-quetions-box .col-lg-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.survey-quetions .amb-title h5{margin-top: -6px;    margin-left: 30px;}
+.paginations{padding: 0 0;}
+.survey-quetions {
+    padding: 40px 15px;
+}
+.filter-with-search-wrapper{display: block;}
+.main-page.sug-plc2 .new-places .filter-cat {
+    margin-top: 10px;
+    margin-left: 0;
+}
+.admin-page .sug-plc2 .form-group {
+    width: 100%;
+}
+.admin-page .sug-plc2 .dropdown {
+    width: 100%;
+}
+.admin-page .sug-plc2 .filter-search-bar input{width: 100%;box-shadow: none;}
+.admin-page .sug-plc2 .filter-cat .form-control .styledSelect:after{right: 7px;}
+.main-page.sug-plc2 .filter-with-search-wrapper {
+    margin-top: 64px;
+}
+.main-page.sug-plc2 .new-places {
+    padding: 10px 0px;
+}
+.survey-quetions.more-survey .progress-img img {
+    width: auto;
+}
+.survey-quetions.more-survey .progress-img{text-align: center;}
+.progress-img p{text-align: center;}
+.survey-quetions.more-survey .amb-title {
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.survey-quetions-widget ul li a{width: 100%;}
+.admin-dashboard .antity-block{margin-bottom: 20px;}
+.main-header.nama .nav .d-flex{margin-bottom: 0;}
+.main-header.main nav.down, .main-header.nama nav.down {
+    padding: 7px 30px;
+}
+.update-place{display: block !important;
+    text-align: left;}
+.update-place div{
+        margin-left: 22px;
+    margin-top: 20px;
+}
+.admin-pages.select-places .new-places h5{margin-left: 0;}
+}
+@media (max-width: 575px) {
+    .acc-pass input {
+        width: 175px !important;
+    }
+    .main-header {
+        padding: 10px 18px;
+        padding-bottom: 25px;
+    }
+    .modal-dialog {
+        width: 360px;
+        margin: 60px 28px;
+    }
+    .main-header.main .navbar {
+        display: block !important;
+        margin-bottom: 0px;
+    }
+    .modal .modal-footer .btn {
+        display: block !important;
+    }
+    .modal .modal-footer .btn a {
+        margin-bottom: 20px;
+    }
+    .main-banner .search-info h5 {
+        font-size: 27px;
+    }
+    .featured-place,
+    .featured-city,
+    .ambassadors {
+        padding: 30px 10px;
+    }
+    .featured-place .places-food {
+        height: 562px;
+    }
+    .ambassadors .owl-theme .custom-nav .owl-prev {
+        left: -28px;
+        top: 50px;
+    }
+    .ambassadors .owl-theme .custom-nav .owl-next {
+        right: -28px;
+        top: 50px;
+    }
+    .coming-soon .web-text h5 {
+        padding-left: 0;
+        text-align: center;
+        border-left: 0;
+        margin-top: 5px;
+    }
+    .coming-soon .web-text .web-btn {
+        display: block !important;
+        text-align: center;
+    }
+    .web-img {
+        text-align: center;
+    }
+    .coming-soon .web-main img {
+        width: 330px;
+    }
+    .main-footer .footer-media {
+        padding-left: 0;
+    }
+    .modal-dialog {
+        width: 88%;
+        margin: 40px auto;
+    }
+    .ambassadors .owl-theme .custom-nav .owl-prev i,
+    .ambassadors .owl-theme .custom-nav .owl-next i {
+        padding: 5px 11px;
+    }
+    .ambassadors .owl-theme .custom-nav .owl-prev i,
+    .ambassadors .owl-theme .custom-nav .owl-next i {
+        font-size: 18px;
+    }
+    .main-header .navbar {
+        padding: 0;
+    }
+    .main-header .navbar .d-flex {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    header .login-info {
+        margin-left: 0;
+    }
+    .food-banner .food-text {
+        display: block;
+        text-align: center;
+    }
+    .share-img {
+        justify-content: center;
+    }
+    header .header-info .search-input input {
+        margin-bottom: 15px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    header .more-info {
+        margin-bottom: 12px;
+    }
+    #myNavbar .header-info {
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+    .rating {
+        justify-content: center;
+    }
+    .restaurant-name .d-flex {
+        justify-content: center;
+    }
+    .restaurant-name {
+        margin-bottom: 20px;
+    }
+    .food-banner {
+        height: 400px;
+    }
+    header .header-info .search-input i {
+        right: 15px;
+        top: 7px;
+    }
+    header .more-info {
+        margin-bottom: 0;
+    }
+    #myNavbar .header-info {
+        margin-top: 22px;
+        margin-bottom: 2px;
+        padding: 0 10px;
+    }
+    .ambassadors .city-title img {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .main-header.sweat .add-location {
+        display: block;
+    }
+    .main-header.sweat .add-location .place-name {
+        text-align: center;
+    }
+    .main-header.sweat .add-location .place-name h3 {
+        font-size: 25px;
+    }
+    .main-header.sweat .login-info {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .main-header.sweat {
+        padding: 10px 0;
+    }
+    .main-header.sweat .add-location .place-name p {
+        text-align: center;
+    }
+    .near-sweat {
+        padding: 30px 12px;
+    }
+    .main-btn {
+        margin-bottom: 20px;
+    }
+    .near-sweat .sweat-title h3 {
+        font-size: 22px;
+    }
+    .toggle-switch {
+        margin-top: 20px;
+    }
+    .sweat-img .places-food {
+        display: block !important;
+    }
+    .sweat-img .places-food {
+        height: auto;
+    }
+    .sweat-desc {
+        padding: 0;
+        border: 0;
+    }
+    .sweat-img .place-img img {
+        width: 100%;
+        transition: 0.3s;
+        height: 100%;
+        object-fit: cover;
+    }
+    .sweat-img .place-img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    .sweat-img .places-food {
+        height: 403px;
+    }
+    .near-sweat.sweat-block2 {
+        padding: 50px 10px;
+    }
+    .rating {
+        justify-content: flex-start;
+    }
+    .sweat-banner {
+        height: 750px;
+    }
+    .toggle-switch {
+        margin-top: 0px;
+    }
+    .near-sweat .sweat-title h3 {
+        font-size: 19px;
+    }
+    .sweat-desc h4 {
+        font-size: 22px;
+    }
+    .toggle-sec {
+        padding: 25px 8px;
+    }
+    .toggle-sec .near-sweat.block3 .sweat-title h3 {
+        font-size: 19px;
+    }
+    .main-sec .toggle-switch {
+        margin-right: 0;
+    }
+    .toggle-sec .near-sweat.block3 .sweat-desc {
+        border: 0;
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 201px;
+    }
+    .amb-banner .amb-title h3 {
+        font-size: 25px;
+    }
+    .partner-info {
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+    .partner-slider {
+        padding: 20px 44px;
+        padding-bottom: 30px;
+    }
+    .give-data {
+        padding: 0px 0px 40px 0px;
+    }
+    .give-data .join-us1 {
+        text-align: center;
+    }
+    .give-data .join-us1 p {
+        text-align: center;
+    }
+    .give-data .new {
+        padding-right: 15px !important;
+    }
+    .photo.main {
+        margin-bottom: 15px;
+    }
+    .give-data .form-btn {
+        width: 100%;
+    }
+    .partner-info .join-us1 h3 {
+        text-align: center;
+    }
+    .partner-info .join-us1 p {
+        text-align: center;
+    }
+    .find-place .next-place {
+        margin-top: 25px;
+    }
+    .find-place .indicator {
+        top: 40%;
+        left: 10%;
+        width: 275px;
+        height: 162px;
+        padding: 18px;
+    }
+    .find-place .indicator p {
+        max-width: 100%;
+    }
+    .find-place .indicator .sug-btn {
+        text-align: center;
+        margin-right: 26px;
+    }
+    .add-profile {
+        left: 5rem;
+        top: 5rem;
+    }
+    .uploaded-articles .d-flex {
+        display: block !important;
+    }
+    .uploaded-articles .form-control {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .ambassadors-info.article .sweat-img {
+        padding: 20px 15px;
+    }
+    .ambassadors-info.article .sweat-img .places-food {
+        height: 452px;
+    }
+    .share-items.d-flex {
+        display: flex !important;
+    }
+    .amb-title h3 {
+        margin-right: 0;
+    }
+    .share-title p {
+        text-align: center;
+    }
+    .share-items {
+        justify-content: center;
+    }
+    .ambassadors-profile {
+        padding-left: 13px;
+    }
+    .cancel-btn,
+    .save-btn {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .cancel-btn {
+        margin-bottom: 20px;
+    }
+    .amb-msg {
+        justify-content: center;
+    }
+    .edit-title {
+        display: block;
+        text-align: center;
+    }
+    .profile-info h5 {
+        margin-bottom: 20px;
+    }
+    .about-info .new {
+        padding-right: 15px !important;
+    }
+    .save-article .save-btn {
+        height: 45px;
+        padding: 10px 60px;
+    }
+    .profile-desc {
+        padding: 30px 0;
+    }
+    .ambs-btn a {
+        padding: 10px 44px;
+    }
+    #modalambForm .new {
+        padding-right: 15px !important;
+    }
+    #modalambForm p {
+        max-width: 100%;
+    }
+    #modalambForm h6 {
+        max-width: 56%;
+    }
+    #suggestionmodal .new {
+        padding-right: 15px !important;
+    }
+    .edit-tag a {
+        margin-left: 20px;
+    }
+    .amenties1 .d-block {
+        margin-right: 25px;
+        float: left;
+        width: 70px;
+        height: 95px;
+    }
+    .amenties1.d-flex {
+        display: block !important;
+    }
+    .amenties2.d-flex {
+        display: flex !important;
+        width: 100%;
+        float: left;
+    }
+    .reprove-btn .hvr-radial-out {
+        margin-left: 7px;
+    }
+    .admin-page .dropdown {
+        width: 100%;
+    }
+    .reprove-btn {
+        text-align: center;
+    }
+    .admin-page .new-places {
+        padding: 30px 10px;
+    }
+    .rating {
+        margin-right: 0;
+    }
+    .add-new-pics-item {
+        width: 42%;
+    }
+    .edit-text h3 {
+        font-size: 20px;
+    }
+    .reprove-btn .hvr-radial-out {
+        padding: 10px 20px;
+    }
+    .two-images img {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .two-images img.first {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .single-img {
+        width: 500px;
+    }
+    .main-page.edit-place .que-btn.reprove-btn .reprove-btn-reprove,
+    .main-page.edit-place .que-btn.reprove-btn .delete.reprove-btn-reprove {
+        padding: 8px 30px 8px 30px;
+    }
+    .main-page.edit-place .que-btn.reprove-btn {
+        text-align: right;
+    }
+    .main-page.edit-place .amenities-admin h5,
+    .main-page.edit-place .reviews h5 {
+        text-align: center;
+    }
+    .main-page.edit-place .rev-block a {
+        font-size: 15px;
+    }
+    .main-page.edit-place .rev-block p {
+        font-size: 14px;
+    }
+    .main-page.edit-place .text-title {
+        text-align: center;
+    }
+    .main-page.edit-place .edit-text p {
+        text-align: center;
+    }
+    .two-images img.first,
+    .two-images img {
+        padding-left: 20px;
+    }
+    .main-header.sweat .add-location .place-name h3 {
+        font-size: 20px;
+    }
+    .sweat-banner {
+        margin-top: -25rem;
+    }
+    .admin-page .form-group {
+        width: 200px;
+    }
+    .admin-page .new-places h5 {
+        font-size: 20px;
+    }
+    .sweat-banner.food-banner p {
+        text-align: center;
+    }
+    .reprove-btn{padding: 20px 0;}
+    .table-title .add-new{margin-top: 15px;}
+    .review-title2 .form-group {width: 100%;}
+    .admin-pages.select-places .pro_thumb .slick-slide img {
+    width: 84px;
+    height: 76px !important;
+}
+.admin-pages.select-places .amenties1 .d-block {
+    width: 60px;
+}
+.survey-quetions-box .col-lg-3 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.sug-plc2-title .psycle-desc .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.survey-quetions.more-survey .progress-img img {
+    width: 100%;
+}
+.survey-quetions.more-survey .amb-title {
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.select-detail{display: block !important;}
+.select-detail .form-group{width: 100%;max-width: 100%;}
+.select-detail .dropdown{width: 100%;}
+.select-detail .form-group.first{margin-left: 0;}
+}
+@media (max-width: 413px) {
+    .signin,
+    .signon {
+        display: block;
+        text-align: center;
+        width: 100%;
+        float: left;
+        margin-bottom: 22px;
+    }
+    .main-header {
+        padding-bottom: 0;
+    }
+    .main-banner .search-info h5 {
+        font-size: 24px;
+    }
+    .featured-place .food-info {
+        padding: 15px;
+        text-align: center;
+    }
+    .featured-place .food-info p {
+        text-align: center;
+    }
+    .featured-place .places-food {
+        height: 545px;
+    }
+    .city-title h3 {
+        font-size: 28px;
+    }
+    .coming-soon .web-text {
+        padding: 0px 6px;
+    }
+    .main-btn {
+        margin-bottom: 20px;
+    }
+    .navbar-toggle {
+        margin-top: 0px;
+    }
+    .near-sweat .sweat-title h3 {
+        font-size: 18px;
+    }
+    .near-sweat .sweat-list {
+        display: block;
+    }
+    .near-sweat .sweat-title h3 {
+        margin-bottom: 13px;
+    }
+    .near-sweat .sweat-list {
+        margin-bottom: 38px;
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 182px;
+    }
+    .review-btn {
+        width: 100%;
+    }
+    .amb-info .form-group {
+        max-width: 100%;
+    }
+    .find-place .indicator {
+        top: 38%;
+        left: 7%;
+    }
+    .find-place {
+        padding: 35px 0px;
+        padding-bottom: 0;
+    }
+    .find-place .place-title h3 {
+        font-size: 20px;
+    }
+    .add-profile {
+        left: 4rem;
+    }
+    .profile-info h5 {
+        font-size: 22px;
+    }
+    .amb-banner .amb-title h3 {
+        font-size: 19px;
+    }
+    #modalambForm .modal-body {
+        padding: 16px 10px;
+    }
+    .add-new-pics-item {
+        width: 45%;
+    }
+    .add-new-pics-item {
+        width: 43%;
+    }
+    .amenties1 .d-block {
+        width: 58px;
+    }
+    .reprove-btn .hvr-radial-out {
+        padding: 10px 13px;
+    }
+    .toggle-btn i {
+        font-size: 23px;
+    }
+    .add-option {
+        display: block;
+    }
+    .add-option .op-btn.reprove-btn {
+        text-align: left;
+    }
+    .add-option .op-btn.reprove-btn a {
+        margin-left: 0
+    }
+    .admin-page .main-page.user-insight .options-value {
+        padding: 8px 30px 8px 30px;
+    }
+    .main-page.edit-place .que-btn.reprove-btn .reprove-btn-reprove,
+    .main-page.edit-place .que-btn.reprove-btn .delete.reprove-btn-reprove {
+        display: block;
+        width: 148px;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    .main-page.edit-place .que-btn.reprove-btn .delete.reprove-btn-reprove {
+        margin-bottom: 0;
+    }
+    .main-page.edit-place .que-btn.reprove-btn {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .rev-block {
+        padding: 15px;
+    }
+    header .login-info {
+        margin: 6px 58px 6px 0;
+    }
+    .acc-pass .d-flex{display: block !important;}
+    .acc-pass input {
+    width: 100% !important;
+}
+.table-title h2 {
+    font-size: 18px;
+}
+}
+@media (max-width: 374px) {
+    .main-banner .search-info h5 {
+        font-size: 20px;
+    }
+    .city-title h3 {
+        font-size: 23px;
+    }
+    .featured-place .food-info {
+        padding: 15px 5px;
+    }
+    .featured-place .places-food {
+        height: 482px;
+    }
+    .featured-place .food-info p {
+        font-size: 14px;
+    }
+    .featured-place .food-info h5 {
+        font-size: 18px;
+    }
+    .featured-place .places h4 {
+        font-size: 20px;
+    }
+    .missing-place .places-text h3 {
+        font-size: 26px;
+    }
+    .modal .modal-footer a {
+        padding: 11px 7px;
+    }
+    .modal .modal-footer p {
+        font-size: 16px;
+    }
+    .coming-soon .web-text {
+        padding: 0px 6px;
+    }
+    .restaurent-info .place-loc .custom-arrow {
+        left: 174px;
+    }
+    .amb-title p {
+        font-size: 17px;
+    }
+    .partner-info .over-name h3 {
+        font-size: 25px;
+    }
+    .partner-info .join-us1 h3 {
+        font-size: 28px;
+    }
+    .give-data .join-us1 h3 {
+        font-size: 28px;
+    }
+    .find-place .place-title h3 {
+        font-size: 24px;
+    }
+    .find-place .indicator {
+        width: 255px;
+    }
+    .add-profile {
+        left: 3rem;
+    }
+    .save-article .cancel-btn {
+        margin-right: 0;
+    }
+    .save-article .save-btn {
+        height: 45px;
+        padding: 11px 40px;
+    }
+    .ambs-btn a {
+        padding: 10px 24px;
+    }
+    .ambassador-profile h5 i {
+        margin-right: 9px;
+    }
+    .ambassador-profile h5 {
+        font-size: 18px;
+    }
+    .reprove-btn .hvr-radial-out {
+        padding: 10px 6px;
+    }
+    .amenties1 .d-block {
+        width: 70px;
+    }
+    .admin-page .main-page.user-insight .options-value {
+        padding: 8px 15px 8px 15px;
+    }
+    .arrow i {
+        margin-left: 30px;
+    }
+    .reprove-btn .hvr-radial-out {
+        font-size: 13px !important;
+        margin-left: 0;
+    }
+    .filter-search{display: block;}
+    .filter-icon a{margin-top: 15px;}
+    .profile-drop-down ul {
+    float: left;
+        padding-left: 30px;
+}
+.reprove-btn.add-op .hvr-radial-out {
+    font-size: 11px !important;
+    margin-left: 0;
+}
+}
+@media (max-width: 320px) {
+    .restaurent-info .place-loc .custom-arrow {
+        left: 154px;
+    }
+    .add-profile {
+        left: 2rem;
+    }
+    .arrow i {
+        margin-left: 3px;
+    }
+}
