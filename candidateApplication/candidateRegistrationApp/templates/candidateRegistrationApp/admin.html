@@ -46,7 +46,7 @@
         </div>
     </div>
     </section>
-    <!-- <section class="contact-form-new"></section> -->
+    <section class="contact-form-new"></section>
     <section class="contact-form-new">
         <div class="container">
             <div class="row">
@@ -82,13 +82,15 @@
                                     <td>{{ userRegDatas.user_bdate }}</td>
                                     <td>{{ userRegDatas.user_city }}</td>
                                     <td>{{ userRegDatas.user_interested_in }}</td>
-                                    <td> <img src="candidateRegistrationApp/static/candidateRegistrationApp/img/{{ userRegDatas.user_image }}.jpg" alt="image not found"> </td>
+                                    <td> 
+                                                                   
+                                        <img src= "{% static 'candidateRegistrationApp/'%}{{ userRegDatas.user_image }}" alt="image not found" width="100" height="100"> </td>
                                     <td>
-                                        <a href="candidateRegistrationApp/static/candidateRegistrationApp/documents/{{ userRegDatas.user_resume }}.pdf" >
+                                      
+                                        <a href="{% static 'candidateRegistrationApp/'%}{{ userRegDatas.resumefile }}" target="_blank"> pdf</a>
+
                                     </td>
 
-
-                                  
                                     <td>{{ userRegDatas.user_experience }}</td>
 
                                    

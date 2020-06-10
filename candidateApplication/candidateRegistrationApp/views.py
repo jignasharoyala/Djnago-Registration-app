@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from candidateRegistrationApp.forms import RegistrationForm
 from candidateRegistrationApp.models import Registration
 
@@ -33,16 +33,6 @@ def index(request):
         Registration_data.save()
 
 
-        if request.FILES['user_pic']:
-                with open('candidateRegistrationApp/static/candidateRegistrationApp/img/'+request.FILES['user_pic'].name, 'wb+') as destination:  
-                    for chunk in request.FILES['user_pic'].chunks():  
-                        destination.write(chunk)
-                   
-        if request.FILES['user_resume']:
-            with open('candidateRegistrationApp/static/candidateRegistrationApp/documents/'+request.FILES['user_resume'].name, 'wb+') as destination:  
-                for chunk in request.FILES['user_resume'].chunks():  
-                    destination.write(chunk)
-                   
             
         return render(request, 'candidateRegistrationApp/index.html')
         
@@ -61,8 +51,8 @@ def adminAddNote(request):
     if request.method == 'POST':
         Registration.objects.filter(register_id=request.POST['register_id']).update(addmin_note=request.POST['addmin_note'])
         userRegData = Registration.objects.all()
-            
-        return render(request, 'candidateRegistrationApp/admin.html', {'userRegData': userRegData })
+        return redirect('adminView')
+        # return render(request, 'candidateRegistrationApp/admin.html', {'userRegData': userRegData })
 
 
 

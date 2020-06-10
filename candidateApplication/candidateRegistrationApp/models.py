@@ -30,8 +30,8 @@ class Registration(models.Model):
     user_city = models.CharField(max_length=50)
     user_experience = models.CharField(max_length=20 ,choices=EXPERIENCE)
     nda =  models.BooleanField('NDA', default=True)
-    user_image= models.ImageField()
-    resumefile = models.FileField()
+    user_image= models.ImageField(upload_to='img')
+    resumefile = models.FileField(upload_to='documents')
     addmin_note = models.TextField()
     register_date = models.DateTimeField(auto_now_add=True)
 
