@@ -1,9 +1,0 @@
- Installing and Configuring Redis:  https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04
-----------------------------------
-	1) sudo apt update
-	2) sudo apt install redis-server
-
-	3) sudo systemctl restart redis.service
-	4) sudo systemctl status redis
-	5) redis-cli
-	6) redis-cli keys "*"
